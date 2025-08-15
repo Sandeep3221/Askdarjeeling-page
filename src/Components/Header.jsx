@@ -17,7 +17,12 @@ function Header() {
                 <h2 className='text-5xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-15'>Explore  Darjeeling, Instantly.</h2>
                 <h5 className='text-base sm:text-lg md:text-2xl mt-2 text-white'>AskDarj is your local AI travel guide, powered by real insights from real locals.</h5>
                 <div className='space-x-6 mt-14'>
-                        <a href="" className='border border-white px-8 py-3 rounded text-center'>Try now</a>
+                        <a
+                        className='border border-white px-8 py-3 rounded text-center'
+                        href="https://wa.me/14123078756?text=HiAskDarj!"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Try now</a>
                         <a href="#Contact" className='bg-blue-500 px-8 py-3 rounded text-center'>Contact</a>
                 </div>
         </motion.div>

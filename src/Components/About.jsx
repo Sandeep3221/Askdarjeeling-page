@@ -33,7 +33,9 @@ function About() {
                         </div>
                 </div>
                 <p className='my-10 max-w-lg'>AskDarj: The hill's first WhatsApp-based AI chatbot that helps you to explore like a true local. Co-founded by Tenzee Lahawang Bhutiya and Saharsh Thapa and Sudama Chettri, this is a homeground AI project backed by the GTA(GorkhaLand Teritorial Administration) Department of Tourism & already in beta with 500+ Users.</p>
-                <button className='bg-blue-600 text-white px-8 py-2 rounded'>Try Now</button>
+                <button 
+                onClick={() => window.open("https://wa.me/14123078756?text=HiAskDarj!", "_blank")}
+                className='bg-blue-600 text-white px-8 py-2 rounded cursor-pointer'>Try Now</button>
         </div>
         </div>
     </motion.div>
